@@ -41,7 +41,7 @@ window.addEventListener('scroll', () => {
 
 // Update countdown (only on home page)
 function updateCountdown() {
-    const conferenceDate = new Date('February 21, 2026 09:00:00').getTime();
+    const conferenceDate = new Date('April 19, 2026 09:00:00').getTime();
     const now = new Date().getTime();
     const distance = conferenceDate - now;
     
